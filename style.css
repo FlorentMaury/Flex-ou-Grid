@@ -13,7 +13,7 @@ header {
 .navContainer {
     padding: 15px;
     margin: 0 auto;
-    max-width: 00px;
+    max-width: 900px;
     display: flex;
     justify-content: space-between;
     align-items: center;
