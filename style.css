@@ -129,6 +129,15 @@ span img {
     height: 60vh;
 }
 
+.dashboard h3 {
+    color: #3964E8;
+}
+
+.dashboard p,
+.dashboard a {
+    color: #e06e3c;
+}
+
 .dashboard span {
     border: 1px solid #3964E8;
     border-radius: 15px;
@@ -148,4 +157,10 @@ span img {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
+}
+
+.hRBloc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
