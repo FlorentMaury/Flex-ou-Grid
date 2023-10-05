@@ -85,7 +85,7 @@ nav a:last-child {
     /* ATELIER 3 */
 
 .gallery {
-    display: flex;
+    display: grid;
     margin: 0 auto;
     max-width: 900px;
     display: grid;
