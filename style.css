@@ -127,7 +127,7 @@ span img {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 8px;
-    height: 60vh;
+    height: 80vh;
 }
 
 .dashboard h3 {
@@ -223,4 +223,11 @@ span img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 0 8px #6b5850;
+    scale: 1.1;
 }
