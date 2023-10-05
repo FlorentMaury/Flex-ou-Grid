@@ -96,6 +96,7 @@ nav a:last-child {
 span img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .item2 {
@@ -138,7 +139,8 @@ span img {
     color: #e06e3c;
 }
 
-.dashboard span {
+.dashboard .zone1,
+.dashboard .zone2 {
     border: 1px solid #3964E8;
     border-radius: 15px;
     color: white;
@@ -150,6 +152,9 @@ span img {
     grid-column-end: 2;
     grid-row-start: 1; 
     grid-row-end: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .zone2 {
@@ -163,4 +168,20 @@ span img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.delete {
+    color: white;
+    background: red;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+.add {
+    color: white;
+    background: #3964E8;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 8px;
 }
